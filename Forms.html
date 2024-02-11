@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms demo</title>
+</head>
+
+<body>
+
+</body>
+
+<h1>Forms Demo</h1>
+<form action="/tacos">
+    <p>
+        <label for="uid">Username</label>
+        <input id="uid" type="text" placeholder="username" name="myusername"><br>
+    </p>
+
+    <p>
+        <label for="pwd">Password</label>
+        <input uid="pwd" type="password" placeholder="password" name="password"><br>
+    </p>
+
+    <p>
+        <label for="clr">Choose your fav colour</label>
+        <input id="clr" type="color"><br>
+    </p>
+
+    <p>
+        <label for="dob">Enter DOB</label>
+        <input id="dob" type="month"><br>
+    </p>
+
+    <p>
+        <input type="number"><br>
+        <input type="file"><br>
+    </p>
+
+    <button>Submit</button>
+    <button type="button">DONOT Submit</button>
+</form>
+<hr>
+<form action="https://www.google.com/search">
+    <input type="text" name="q">
+    <button> Search Google</button>
+    <div>
+        <input type="checkbox" name="agreement" id="agree">
+        <label for="agree">I agree to search on google</label>
+    </div>
+    <div>
+        <h2>Select you search enginee</h2>
+        <input type="radio" name="searchenginee" id="google" value="googlesearch">
+        <label for="google">GOOGLE SEARCH</label><br>
+        <input type="radio" name="searchenginee" id="youtube" value="youtubesearch">
+        <label for="youtube"> YOUTUBE SEARCH</label><br>
+        <input type="radio" name="searchenginee" id="bing" value="bingsearch">
+        <label for="bing"> BING SEARCH</label>
+    </div>
+
+    <div>
+        <label for="favoriteplayer"> Select your favorite T20 player</label>
+        <select name="favoriteplayer" id="t20players">
+            <option value="">--Please choose an option--</option>
+            <option value="Rohit Sharma">Rohit Sharma</option>
+            <option value="Virat Kohli" selected>Virat Kohli</option>
+            <option value="Shikhar Dhawan">Shikhar Dhawan</option>
+            <option value="Chris Gayle">Chris Gayle</option>
+        </select>
+    </div>
+
+</form>
+
+<form action="/Chickens.html">
+    <p>
+        <label for="intrestrate">Choose ROI</label>
+        <input type="range" id="intrestrate" min="5" max="20" name="rateofintrest">
+        <button>Submit</button>
+    </p>
+
+    <p>
+        <label for="comments">Pleavse provide your comments here</label> <br>
+        <textarea id="comments" name="comments" id="3" cols="30" rows="10" placeholder="Type here"></textarea>
+</form>
+
+</html>
